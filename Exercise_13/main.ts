@@ -7,5 +7,5 @@ let favrit_transport:string[] = ["Civic","City","Corola","BMW","Ferrari"];
 
 // solve with foreach function
 favrit_transport.forEach((transport) => {
-    console.log(`I Would like to own a ${transport}`);  
+    console.log(`"I Would like to own a ${transport}."`);  
 });

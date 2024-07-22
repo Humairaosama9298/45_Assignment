@@ -27,43 +27,34 @@
 let locations:string[] = ["Switzerland","Canada","Paris","Iskardu","Tokyo"];
 
 // Print your array in its original order.
-console.log(locations);
+console.log("Orignal array:" , locations);
 
 //  Print your array in alphabetical order without modifying the actual list.
-console.log(locations.sort());
+console.log("Alphabetical Order Array:" , locations.slice().sort());
 
 // orignal array
-console.log(locations);
+console.log("Orignal array:" , locations);
 
 // Print your array in reverse alphabetical order without changing the order of the original list
-console.log(locations.reverse());
+console.log("Reverse Alphabetical Order Array:" , locations.slice().reverse());
 
 // orignal array
-console.log(locations);
+console.log("Orignal array:", locations);
 
-console.log("\n\n\n\n");
+// Reverse the order of your list. Print the array to show that its order has changed.
+locations.reverse();
+console.log("Reverse Order Array:",locations);
 
+//  Reverse the order of your list again. Print the list to show it’s back to its original order.
+locations.reverse();
+console.log("Orignal Array:",locations);
 
-let places: string[] = ["New Zealand", "Iceland", "Japan", "Switzerland", "Norway"];
+// Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 
-console.log("Original order:", places);
+locations.sort();
+console.log("Alphabetical Order Array:", locations);
 
-console.log("Alphabetical order:", [...places].sort());
+// Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
-console.log("Original order:", places);
-
-console.log("Reverse alphabetical order:", [...places].sort().reverse());
-
-console.log("Original order:", places);
-
-places.reverse();
-console.log("Reversed order:", places);
-
-places.reverse();
-console.log("Original order:", places);
-
-places.sort();
-console.log("Alphabetical order:", places);
-
-places.reverse();
-console.log("Reverse alphabetical order:", places);
+locations.reverse();
+console.log("Reverse Alphbetical Order Array:",locations);
